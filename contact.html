@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/am.svg" alt="">
+            <div>Maaj Fitness</div>
+        </div>
+        <div class="mid">
+
+            <ul class="navbar">
+
+                <li><a href=index.html>Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="#">Contact</a></li>
+                <li><a href="Price.html">Price</a></li>
+
+            </ul>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Connect with us</h1>
+        <p>We would love to respond to your queries and help you succeed. Feel free to get in touch with us </p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3>Sent Your request</h3>
+                <form name="myform" onsubmit="fun()">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="John amendo" id="n1">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" placeholder="+918888778892" id="p-n1">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="maaj1122@gmaol.com" id="em1">
+                        </div>
+                        <div class="input-group">
+                            <label>City</label>
+                            <input type="text" placeholder="Ajara" id="a1">
+                        </div>
+                    </div>
+                    <label> Message</label>
+                    <textarea rows="5" placeholder="Your message"></textarea>
+                    <button type="Submit">SEND</button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <h3>Reach Us</h3>
+                <table>
+                    <tr>
+                        <td>Email:</td>
+                        <td>maajfitness10@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone:</td>
+                        <td>+919130304068</td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td>#212, Ground floor, 7th cross <br>
+                            Radha Apartments,Amboli Road,Ajara <br>
+                            Ajara 416505
+                        </td>
+                    </tr>
+                    <td>WhatsUp No:</td>
+                    <td>+917768868584</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <script>
+        function fun() {
+            var pn = document.getElementById("n1").value
+            var pr = document.getElementById("p-n1").value
+            var ps = document.getElementById("em1").value
+            var pt = document.getElementById("a1").value
+
+            var a = /^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]$/;
+            var b = /^[7-9][0-9]{9}$/;
+            var c = /[a-z]$/;
+            var d = /[a-z]/;
+
+            var p1 = a.test(ps);
+            var p2 = b.test(pr);
+            var p3 = c.test(pn);
+            var p4 = d.test(pt);
+
+            if (p3 == false) {
+                alert("Enter proper name");
+                return false;
+            }
+
+                if(p2 == false)
+                {
+                    alert("Enter valid mobile number");
+                    return false;
+                }
+                if(p1 == false)
+                {
+                    alert("Enter valid email id");
+                    return false;
+
+                }
+                if(p4 == false)
+                {
+                    alert("Enter proper city");
+                    return false;
+                }
+            
+            
+                alert("Data submitted successfully");
+                return true;
+            
+        }
+    </script>
+</body>
+
+</html>

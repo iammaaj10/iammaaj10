@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}body{
+    font-family: 'Baloo Bhai',cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+   background: url('images/m3.jpg') no-repeat;
+   grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+   
+}
+.left{
+  /* border: 2px solid green;*/
+  display: inline-block;
+  left: 60px;
+   top: 20px;
+   position: absolute;
+  
+}
+.left img{
+    width: 28px;
+    filter: invert(100%);
+    width: 116px;
+}
+.left div{
+    line-height: 19px;
+    font-family: 26px;
+    text-align: center;
+}
+.mid{
+ 
+ display: block;
+ width: 40%;
+ margin: 22px auto;
+ /*border:2px solid red;*/
+
+
+}
+.right{
+    position: absolute;
+    /*border: 2px solid aqua;*/
+   display: inline-block;
+   right: 34px;
+   top: 30px;
+  }
+  .navbar{
+      display: inline-block;
+  }
+  .navbar li{
+      display: inline-block;
+      font-size: 19px;
+  }
+  .navbar li a{
+      color: white;
+      text-decoration: none;
+      padding: 28px 15px;
+  }
+  .navbar li a:hover, .navbar li a.active{
+      text-decoration: underline;
+      color: grey;
+  }
+  .btn{
+    font-family: 'Baloo Bhai',cursive;
+      margin: 0px 10px;
+      background-color:black;
+      color: white;
+      padding: 3px 4px;
+      border: 2px solid grey;
+      border-radius: 9px;
+      font-size: 15px;
+      cursor: pointer;
+      
+     
+  }
+  .btn:hover{
+      background-color: rgb(134, 134, 134);
+  }
+  .quote h4{
+    font-size: 20px;
+      color: red;
+      margin-left: 40px;
+      margin-top: 100px;
+      width: 50%;
+}
+  .quote p{
+      width: 40%;
+      height: 50%;
+      font-size: 50px;
+      margin-top: 60px;
+      margin-left: 40px;
+  }
+  
+  .button button{
+    background: red;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    /* margin-top: 20px; */
+    box-shadow: 0px 5px 15px 0px rgb(28, 0, 181,0.3);
+    margin-left: 40px;
+     
+  }
+  .button button:hover{
+      color: black;
+      background: grey;
+  }
+  
+  /* Style for the form container */
+  
+
+
+
+
+  

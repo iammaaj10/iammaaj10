@@ -1,0 +1,146 @@
+body{
+    font-family: 'Baloo Bhai',cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+     /* background: url('images/m6.jpg') no-repeat;  */
+     background-color:black; 
+     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    
+}
+.left{
+    /* border: 2px solid green;*/
+    display: inline-block;
+    left: 60px;
+     top: 20px;
+     position: absolute;
+    
+  }
+  .left img{
+      width: 28px;
+      filter: invert(100%);
+      width: 116px;
+  }
+  .left div{
+      line-height: 19px;
+      font-family: 26px;
+      text-align: center;
+  }
+  .mid{
+   
+   display: block;
+   width: 40%;
+   margin: 22px auto;
+   /*border:2px solid red;*/
+  
+  
+  }
+  .right{
+      position: absolute;
+      /*border: 2px solid aqua;*/
+     display: inline-block;
+     right: 34px;
+     top: 30px;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 19px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 28px 15px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+        font-family: 'Baloo Bhai',cursive;
+          margin: 0px 10px;
+          background-color:black;
+          color: white;
+          padding: 3px 4px;
+          border: 2px solid grey;
+          border-radius: 9px;
+          font-size: 15px;
+          cursor: pointer;
+          
+         
+      }
+      .btn:hover{
+          background-color: rgb(134, 134, 134);
+      }
+      .contact-right{
+          margin-top: 15px;
+          border: 2px solid white;
+          background-color: white;
+          color: black;
+          border-radius: 6px;
+          width: 320px;
+          margin-left: 30px;
+      }
+      .contact-right:hover{
+        background-color: rgb(57, 57, 243);
+        color:rgb(235, 119, 119);
+        transition: 0.5s ease-in;
+        border: blue;
+      }
+      .trainer{
+        position: absolute;
+        /*border: 2px solid aqua;*/
+       display: inline-block;
+       right: 34px;
+       top: 450px;
+       border: 2px solid white;
+       background-color: white;
+       color: black;
+       border-radius: 6px;
+       width: 320px;
+       margin-left: 30px;
+      }
+      .trainer:hover{
+        background-color: rgb(57, 57, 243);
+        color: rgb(235, 111, 111);
+        transition: 0.5s ease-in;
+        border: blue;
+      }
+      .para{
+       right: 500px;
+       position: absolute;
+       /*border: 2px solid aqua;*/
+      display: inline-block;
+      top: 440px;
+      border: 2px solid white;
+      background-color: white;
+      color: black;
+      border-radius: 6px;
+      width: 320px;
+     }
+     .para:hover{
+         background-color: rgb(57, 57, 243);
+         color: rgb(233, 95, 95);
+         transition: 0.5s ease-in;
+         border: blue;
+     }
+     .butt button{
+        right: 600px;
+        position: absolute;
+        /*border: 2px solid aqua;*/
+       display: inline-block;
+       top: 640px;
+       width: 150px;
+       height: 40px;
+       border-radius: 18px;
+       color:white;
+       background-color: #1c00b5;
+     }
+     .butt button:hover{
+        background-color: grey;
+        color: black;
+        transition: 0.5s ease-in;
+        border: blue;
+     }

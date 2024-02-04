@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+ <body onload="rotate()">
+  <header class="header">
+    <div class="left">
+       <img src="images/am.svg" alt="">
+       <div>Maaj Fitness</div>
+    </div>
+    <div class="mid">
+        
+        <ul class="navbar">
+           
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" class="active">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Price.html">Price</a></li>
+            
+        </ul>
+       
+    </div>
+    <div class="right">
+   <button class="btn" onclick="alert('9130304068')">Call Us</button>
+   <button class="btn" onclick="alert('maajfitness@1122gmail.com')">Email Us</button>
+    </div>
+</header>
+  <center>
+    <img src="images/m7.jpg" width="1100" height="300" name="img1">
+  </center>  
+
+  <div class="contact-right">
+    <h3>Reach Us</h3>
+    <table>
+        <tr>
+            <td>Email:</td>
+            <td>maajfitness10@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Phone:</td>
+            <td>+919130304068</td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td>#212, Ground floor, 7th cross <br>
+                Radha Apartments,Amboli Road,Ajara <br>
+                Ajara 416505
+            </td>
+        </tr>
+        <td>WhatsUp No:</td>
+        <td>+917768868584</td>
+        </tr>
+
+    </table>
+</div>
+<div class="trainer">
+  <h3>Personal Trainers</h3>
+  <table>
+    <tr>
+      <td>Trainer 1:</td>
+      <td>Malhar Kulkarni <br>
+          DPT(Diploma in physical training)
+      </td>
+    </tr>
+    <tr>
+      <td>Trainer 2:</td>
+      <td>John Snow<br>
+          DPT(Diploma in physical training)
+      </td>
+    </tr>
+  </table>
+</div>
+<div class="para">
+  <p>Join us today to make yourself healthy, strong with full guidance from master trainers and train from  them with advance machinery near by you <br>
+  So hurry up and join us today to confirm your admission Thank You!!!</p>
+</div>
+<div class="butt">
+  <button type="submit" onclick="f1()">Join Us</button>
+</div>
+  <script>
+    Banners = new Array("images/the.jpg","images/m3.jpg","images/maaj1.jpg")
+    count=0;
+    function rotate()
+    {
+      if(document.images)
+      {
+        count++;
+        if(count==Banners.length)
+        {
+          count=0;
+        }
+        document.img1.src=Banners[count];
+        setTimeout("rotate()",4000)
+      }
+    }
+  
+    function f1()
+    {
+        location.href="contact.html"
+    }
+  </script>
+        
+</body>
+</html>
