@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Maaj Bhadgaonkar</h1>
-<h3 align="center">💻 Full-Stack Web Developer ⚡ I build real-time, interactive and AI-enabled web applications 🌱 Currently learning TypeScript, PostgreSQL, Docker & AI Tools ✨ Always creating, improving, and exploring new tech</h3>
+<h5 align="center">💻 Full-Stack Web Developer ⚡ I build real-time, interactive and AI-enabled web applications 🌱 Currently learning TypeScript, PostgreSQL, Docker & AI Tools ✨ Always creating, improving, and exploring new tech</h3>
 
 - 👨‍💻 All of my projects are available at [https://maaj-portfolio.vercel.app/](https://maaj-portfolio.vercel.app/)
 
