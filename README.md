@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Maaj Bhadgaonkar</h1>
 <h4 align="center">💻 Full-Stack Web Developer</h4>
 <h4 align="center">⚡ I build real-time, interactive and AI-enabled web applications</h4>
-<h4 align="center">🌱 Currently learning TypeScript, PostgreSQL, Docker & AI Tools</h4>
+<h4 align="center">🌱 Currently learning NextJs, TypeScript, PostgreSQL, Docker & AI Tools</h4>
 <h4 align="center">✨ Always creating, improving, and exploring new tech</h4>
 
 
