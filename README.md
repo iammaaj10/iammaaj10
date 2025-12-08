@@ -30,6 +30,10 @@ const maaj: Developer = {
 <div align="center"> <img src="https://img.shields.io/badge/Node.js-215732?style=for-the-badge&logo=node.js&logoColor=ffffff" /> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=ffffff" /> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=ffffff" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=ffffff" /> <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=ffffff" /> </div>
 🤖 AI, Real-Time & Tools
 <div align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffffff" /> <img src="https://img.shields.io/badge/OpenAI%20APIs-000000?style=for-the-badge&logo=openai&logoColor=ffffff" /> <img src="https://img.shields.io/badge/Socket.IO-000000?style=for-the-badge&logo=socket.io&logoColor=ffffff" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=ffffff" /> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=ffffff" /> <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=ffffff" /> <img src="https://img.shields.io/badge/Figma-A259FF?style=for-the-badge&logo=figma&logoColor=ffffff" /> </div>
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ⭐ Featured Projects
 📰 NewsBlog – AI-Powered News & Blogging Platform
 
