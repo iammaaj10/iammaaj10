@@ -1,11 +1,14 @@
 🌟 Hi, I'm Maaj — Full-Stack & AI Developer
 <div align="center"> <img src="https://capsule-render.vercel.app/api?type=rounded&height=120&color=00eaff&text=Maaj%20Bhadgaonkar&fontSize=40&fontColor=ffffff&section=header" /> </div> <div align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00F5FF&center=true&vCenter=true&width=800&lines=Full-Stack+Web+Developer;AI+%26+Machine+Learning+Enthusiast;MERN+%2B+Next.js+Developer;Real-Time+%2F+Socket.IO+Apps;Building+Scalable+%26+AI-Powered+Products" /> </div> <div align="center"> <img src="https://komarev.com/ghpvc/?username=iammaaj10&label=Profile%20Views&color=00eaff&style=for-the-badge" /> <img src="https://img.shields.io/badge/Focus-FullStack%20%26%20AI-00eaff?style=for-the-badge" /> <img src="https://img.shields.io/badge/Location-India 🇮🇳-blue?style=for-the-badge" /> </div>
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🚀 About Me
 const maaj: Developer = {
   pronouns: "He/Him",
   role: "Full-Stack Web Developer + AI Learner",
   stack: ["React", "Next.js", "Node.js", "TypeScript", "PostgreSQL", "MongoDB"],
-  currentlyLearning: ["Vector DBs", "RAG", "Docker", "Advanced Next.js"],
+  currentlyLearning: ["Vector DBs", "RAG", "Docker", "Next.js"],
   loves: ["Real-time apps", "Clean UI/UX", "AI integrations"],
   funFact: "I build projects that feel alive ⚡"
 };
