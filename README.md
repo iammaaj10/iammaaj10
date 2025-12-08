@@ -45,6 +45,10 @@ Full-stack platform combining news, blogging & real-time social features.
 
 🔗 Repo: https://github.com/iammaaj10/newsBlogs
 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🔧 MechHelp – Online Mechanic Services Platform
 
 Helps stranded users connect to nearby mechanics with live tracking.
@@ -59,7 +63,11 @@ Helps stranded users connect to nearby mechanics with live tracking.
 
 ⚙ Live request flow: user → mechanic → accept/complete
 
-🧱 Stack: MERN, React Leaflet, JWT, WebSockets / Socket.IO
+🧱 Stack: MERN, React Leaflet, JWT, GeoLocation
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ✍️ Narratia – Context-Aware Storytelling Platform
 
@@ -71,7 +79,12 @@ Team-based story writing with AI assistance.
 
 📚 Stories stored phase-wise with continuity
 
-🧱 Stack: React, Node.js, PostgreSQL, Supabase Auth, AI tools
+🧱 Stack: NextJs, PostgreSQL, Supabase Auth, AI tools
+
+
+
+
+
 
 🎯 Current Focus & Learning
 
@@ -85,6 +98,12 @@ Team-based story writing with AI assistance.
 
 ⚡ Real-Time Systems – WebSockets, Socket.IO, scalable patterns
 
+
+
+
+
+
+
 🏆 Highlights
 
 🚀 Built apps actively used by 70+ real users
@@ -94,6 +113,10 @@ Team-based story writing with AI assistance.
 🧩 Comfortable designing end-to-end full-stack architectures
 
 💡 Strong in real-time features, clean UI, and practical AI integration
+
+
+
+
 
 🤝 Let’s Collaborate
 
